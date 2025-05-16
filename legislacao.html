@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>ReuseFlow</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div id="topbar-start" class="container-fluid bg-dark text-light px-0 py-2">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <span class="fa fa-phone-alt me-2"></span>
+                    <span>+055 3636-9999</span>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <span class="far fa-envelope me-2"></span>
+                    <span>reuseflow@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <span>Siga-nos:</span>
+                    <a class="btn btn-link text-light" href="https://www.facebook.com" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.x.com" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.linkedin.com" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.instagram.com" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+   <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h1 class="m-0">ReuseFlow</h1>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="about.html" class="nav-item nav-link">Sobre</a>
+            <a href="legislacao.html" class="nav-item nav-link">Legislação</a>
+            <a href="produtos.html" class="nav-item nav-link">Produtos</a>
+            <button class="btn rounded-start text-success" type="button" style="margin-bottom: 5px; margin-right: 8px;" onclick="location.href='login.html'">Login</button>
+            <button class="btn rounded-end text-success" type="button" style="margin-bottom: 5px; margin-right: 8px;" onclick="location.href='register.html'">Criar conta</button>
+        </div>
+    </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder text-white">Legislação</h1>
+            </div>
+        </div>
+    </header>
+    <!-- Header-->
+
+    <!-- Legislation Start -->
+    <div id="legislation-start" class="container-md py-5"></div>
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                <p class="fs-4 fw-bold text-primary">Informações Legais</p>
+                <h1 class="display-5 mb-5">Conheça a legislação de logística reversa no Brasil</h1>
+            </div>
+
+            <div class="legislation-item rounded d-flex h-100">
+                <div class="legislation-text rounded p-5">
+                    <p class="mb-5">A gestão de resíduos sólidos no Brasil é pautada pela Política Nacional de Resíduos Sólidos (PNRS), estabelecida pela Lei Federal nº 12.305/2010. Essa legislação define diretrizes e objetivos para a gestão dos resíduos, incluindo a implementação obrigatória de sistemas de logística reversa, que promovem a responsabilidade compartilhada entre todos os envolvidos no ciclo de vida dos produtos.</p> 
+                    <p class="mb-4">Em fevereiro de 2023, foi editado o Decreto nº 11.413/2023, que regula os Certificados de Crédito de Reciclagem a nível federal. Este decreto introduz o Certificado de Crédito de Logística Reversa (CCRLR), o Certificado de Estruturação e Reciclagem de Embalagens (CERE) e o Certificado de Crédito de Massa Futura, cada um com suas particularidades, com o intuito de facilitar a comprovação do cumprimento da logística reversa pelas empresas.</p> 
+                    <p class="mb-4">A norma estabelece que fabricantes, importadores, comerciantes e distribuidores de produtos e embalagens pós-consumo devem enviar ao Ministério do Meio Ambiente (MMA) relatórios anuais sobre a eficiência na recuperação de embalagens, incluindo dados consolidados e atividades de suporte às cooperativas, além da comercialização de notas fiscais que gerarão créditos de logística reversa.</p> 
+                    <p class="mb-4">É importante destacar que o Decreto nº 11.413/2023 impõe a obrigatoriedade da logística reversa e da prestação de resultados em todos os estados do Brasil.</p> 
+                    <p class="mb-4">Em 2022, a PNRS foi complementada pelo Decreto Federal nº 10.936/2022, que trouxe inovações significativas, como (i) o lançamento do Programa Nacional de Logística Reversa; (ii) a exigência de informações sobre os sistemas de logística reversa no Sistema Nacional de Informações sobre a Gestão dos Resíduos Sólidos (Sinir); (iii) a criação do Manifesto de Transporte de Resíduos (MTR) como ferramenta de gestão; e (iv) a definição do conteúdo mínimo para acordos setoriais e termos de compromisso, entre outros.</p> 
+                    <p class="mb-4">Confira a seguir outras normas que regulamentam a gestão de resíduos no Brasil:</p>
+                </div>
+            </div>
+
+            <section class="secao-faq">
+                <div class="conteudo-centralizado">
+                    <div class="item-faq">
+                        <div class="caixa-faq">
+                            <div class="cabecalho-faq" onclick="toggleFaq(this)">
+                                <div>
+                                    <div class="titulo-faq">Decreto Nº 11.413/2023</div>
+                                    <div class="data-faq">12 de fevereiro de 2023</div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/62477f9095de2a5592cc7602/62c79e8c3b3b46b8b0b03b52_chevron-down.svg" 
+                                     alt="Chevron para baixo" class="icone-faq">
+                            </div>
+                            <div class="conteudo-faq">
+                                <div class="descricao-faq">
+                                    Institui o Certificado de Crédito de Reciclagem de Logística Reversa, o Certificado de Estruturação e Reciclagem de Embalagens em Geral e o Certificado de Crédito de Massa Futura, no âmbito dos sistemas de logística reversa de que trata o art. 33 da Lei nº 12.305, de 2 de agosto de 2010.
+                                </div>
+                                <div class="link-faq">
+                                    <a href="https://www.in.gov.br/web/dou/-/decreto-n-11.413-de-13-de-fevereiro-de-2023-464158637" target="_blank" class="botao-faq">
+                                        Acesse a íntegra da norma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-faq">
+                        <div class="caixa-faq">
+                            <div class="cabecalho-faq" onclick="toggleFaq(this)">
+                                <div>
+                                    <div class="titulo-faq">Decreto Nº 11.414/2023</div>
+                                    <div class="data-faq">12 de fevereiro de 2023</div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/62477f9095de2a5592cc7602/62c79e8c3b3b46b8b0b03b52_chevron-down.svg" 
+                                     alt="Chevron para baixo" class="icone-faq">
+                            </div>
+                            <div class="conteudo-faq">
+                                <div class="descricao-faq">
+                                    Institui o Programa Diogo de Sant'Ana Pró-Catadoras e Pró-Catadores para a Reciclagem Popular e o Comitê Interministerial para Inclusão Socioeconômica de Catadoras e Catadores de Materiais Reutilizáveis e Recicláveis.
+                                </div>
+                                <div class="link-faq">
+                                    <a href="https://www.in.gov.br/web/dou/-/decreto-n-11.414-de-13-de-fevereiro-de-2023-464158550" target="_blank" class="botao-faq">
+                                        Acesse a íntegra da norma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-faq">
+                        <div class="caixa-faq">
+                            <div class="cabecalho-faq" onclick="toggleFaq(this)">
+                                <div>
+                                    <div class="titulo-faq">Decreto Nº 11.300/2022</div>
+                                    <div class="data-faq">21 de dezembro de 2022</div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/62477f9095de2a5592cc7602/62c79e8c3b3b46b8b0b03b52_chevron-down.svg" 
+                                     alt="Chevron para baixo" class="icone-faq">
+                            </div>
+                            <div class="conteudo-faq">
+                                <div class="descricao-faq">
+                                    Regulamenta o § 2º do art. 32 e o § 1º do art. 33 da Lei nº 12.305, de 2 de agosto de 2010, e institui o sistema de logística reversa de embalagens de vidro.
+                                </div>
+                                <div class="link-faq">
+                                    <a href="https://www.in.gov.br/en/web/dou/-/decreto-n-11.300-de-21-de-dezembro-de-2022-452767383" target="_blank" class="botao-faq">
+                                        Acesse a íntegra da norma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-faq">
+                        <div class="caixa-faq">
+                            <div class="cabecalho-faq" onclick="toggleFaq(this)">
+                                <div>
+                                    <div class="titulo-faq">Decreto Nº 10.936/2022</div>
+                                    <div class="data-faq">11 de janeiroo de 2022</div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/62477f9095de2a5592cc7602/62c79e8c3b3b46b8b0b03b52_chevron-down.svg" 
+                                     alt="Chevron para baixo" class="icone-faq">
+                            </div>
+                            <div class="conteudo-faq">
+                                <div class="descricao-faq">
+                                    Regulamenta a Lei nº 12.305, de 2 de agosto de 2010, que institui a Política Nacional de Resíduos Sólidos.
+                                </div>
+                                <div class="link-faq">
+                                    <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D10936.htm" target="_blank" class="botao-faq">
+                                        Acesse a íntegra da norma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-faq">
+                        <div class="caixa-faq">
+                            <div class="cabecalho-faq" onclick="toggleFaq(this)">
+                                <div>
+                                    <div class="titulo-faq">Lei Nº 14.026/2020</div>
+                                    <div class="data-faq">15 de julho de 2020</div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/62477f9095de2a5592cc7602/62c79e8c3b3b46b8b0b03b52_chevron-down.svg" 
+                                     alt="Chevron para baixo" class="icone-faq">
+                            </div>
+                            <div class="conteudo-faq">
+                                <div class="descricao-faq">
+                                    Atualiza o marco legal do saneamento básico
+                                </div>
+                                <div class="link-faq">
+                                    <a href="https://legislacao.presidencia.gov.br/atos/?tipo=LEI&numero=14026&ano=2020&ato=cfaATWE9EMZpWT417" target="_blank" class="botao-faq">
+                                        Acesse a íntegra da norma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-faq">
+                        <div class="caixa-faq">
+                            <div class="cabecalho-faq" onclick="toggleFaq(this)">
+                                <div>
+                                    <div class="titulo-faq">Acordo Setorial De Embalagens Em Geral</div>
+                                    <div class="data-faq">24 de novembro de 2015</div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/62477f9095de2a5592cc7602/62c79e8c3b3b46b8b0b03b52_chevron-down.svg" 
+                                     alt="Chevron para baixo" class="icone-faq">
+                            </div>
+                            <div class="conteudo-faq">
+                                <div class="descricao-faq">
+                                    Atualiza o marco legal do saneamento básico.
+                                </div>
+                                <div class="link-faq">
+                                    <a href="https://cempre.org.br/wp-content/uploads/2020/12/11-Acordo_embalagens.pdf" target="_blank" class="botao-faq">
+                                        Acesse a íntegra da norma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-faq">
+                        <div class="caixa-faq">
+                            <div class="cabecalho-faq" onclick="toggleFaq(this)">
+                                <div>
+                                    <div class="titulo-faq">Lei Nº 12.305/2010</div>
+                                    <div class="data-faq">01 de agosto de 2010</div>
+                                </div>
+                                <img src="https://cdn.prod.website-files.com/62477f9095de2a5592cc7602/62c79e8c3b3b46b8b0b03b52_chevron-down.svg" 
+                                     alt="Chevron para baixo" class="icone-faq">
+                            </div>
+                            <div class="conteudo-faq">
+                                <div class="descricao-faq">
+                                    Institui a Política Nacional de Resíduos Sólidos.
+                                </div>
+                                <div class="link-faq">
+                                    <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm" target="_blank" class="botao-faq">
+                                        Acesse a íntegra da norma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </section>
+            
+
+        <div class="legislation-item rounded d-flex h-100">
+            <div class="legislation-text rounded p-5">
+                <h1 class="mb-5">Legislação Estadual</h1>
+                <p class="mb-4">Os estados têm ajustado suas legislações para complementar a federal, focando na gestão integrada de resíduos sólidos e na logística reversa de embalagens. Além disso, têm a liberdade de estabelecer obrigações mais específicas e rigorosas. Essa dinâmica regulatória exige que fabricantes, importadores, comerciantes e distribuidores fiquem atentos às mudanças nas legislações de cada um dos 27 estados do país.</p> 
+                <p class="mb-4">Veja a seguir os detalhes das legislações estaduais que regulamentam a logística reversa até o momento:</p>
+            </div>
+        </div>
+
+        <div class="estados-brasileiros">
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg" alt="Bandeira do Acre" class="bandeira">
+                <span class="nome-estado">Acre</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Bandeira_de_Alagoas.svg" alt="Bandeira de Alagoas" class="bandeira">
+                <span class="nome-estado">Alagoas</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Bandeira_do_Amapá.svg" alt="Bandeira do Amapá" class="bandeira">
+                <span class="nome-estado">Amapá</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bandeira_do_Amazonas.svg" alt="Bandeira do Amazonas" class="bandeira">
+                <span class="nome-estado">Amazonas</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Bandeira_da_Bahia.svg" alt="Bandeira da Bahia" class="bandeira">
+                <span class="nome-estado">Bahia</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Bandeira_do_Ceará.svg" alt="Bandeira do Ceará" class="bandeira">
+                <span class="nome-estado">Ceará</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg" alt="Bandeira do Distrito Federal" class="bandeira">
+                <span class="nome-estado">Distrito Federal</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Bandeira_do_Esp%C3%ADrito_Santo.svg" alt="Bandeira do Espírito Santo" class="bandeira">
+                <span class="nome-estado">Espírito Santo</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Goi%C3%A1s.svg" alt="Bandeira de Goiás" class="bandeira">
+                <span class="nome-estado">Goiás</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Bandeira_do_Maranh%C3%A3o.svg" alt="Bandeira do Maranhão" class="bandeira">
+                <span class="nome-estado">Maranhão</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandeira_de_Mato_Grosso.svg" alt="Bandeira do Mato Grosso" class="bandeira">
+                <span class="nome-estado">Mato Grosso</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg" alt="Bandeira do Mato Grosso do Sul" class="bandeira">
+                <span class="nome-estado">Mato Grosso do Sul</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Bandeira_de_Minas_Gerais.svg" alt="Bandeira de Minas Gerais" class="bandeira">
+                <span class="nome-estado">Minas Gerais</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Bandeira_do_Paran%C3%A1.svg" alt="Bandeira do Paraná" class="bandeira">
+                <span class="nome-estado">Paraná</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Bandeira_da_Para%C3%ADba.svg" alt="Bandeira da Paraíba" class="bandeira">
+                <span class="nome-estado">Paraíba</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Bandeira_de_Pernambuco.svg" alt="Bandeira de Pernambuco" class="bandeira">
+                <span class="nome-estado">Pernambuco</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Bandeira_do_Piau%C3%AD.svg" alt="Bandeira do Piauí" class="bandeira">
+                <span class="nome-estado">Piauí</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Bandeira_do_Rio_Grande_do_Norte.svg" alt="Bandeira do Rio Grande do Norte" class="bandeira">
+                <span class="nome-estado">Rio Grande do Norte</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Bandeira_do_Rio_Grande_do_Sul.svg" alt="Bandeira do Rio Grande do Sul" class="bandeira">
+                <span class="nome-estado">Rio Grande do Sul</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Bandeira_da_cidade_do_Rio_de_Janeiro.svg" alt="Bandeira do Rio de Janeiro" class="bandeira">
+                <span class="nome-estado">Rio de Janeiro</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Bandeira_de_Santa_Catarina.svg" alt="Bandeira de Santa Catarina" class="bandeira">
+                <span class="nome-estado">Santa Catarina</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Bandeira_de_Sergipe.svg" alt="Bandeira de Sergipe" class="bandeira">
+                <span class="nome-estado">Sergipe</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg" alt="Bandeira de São Paulo" class="bandeira">
+                <span class="nome-estado">São Paulo</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Bandeira_do_Tocantins.svg" alt="Bandeira de Tocantins" class="bandeira">
+                <span class="nome-estado">Tocantins</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Bandeira_de_Roraima.svg" alt="Bandeira de Roraima" class="bandeira">
+                <span class="nome-estado">Roraima</span>
+            </div>
+            <div class="estado">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Bandeira_de_Rond%C3%B4nia.svg" alt="Bandeira de Rondônia" class="bandeira">
+                <span class="nome-estado">Rondônia</span>
+            </div>            
+        </div>
+        
+    </div>
+    <!-- Legislation End -->
+
+    <!-- Footer Start -->
+    <div id="footer" class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Nosso Escritório</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jatai-Goias</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+055 3636-9999</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>reuseflow@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!--
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Serviços</h4>
+                    <a class="btn btn-link" href="">Serviço 1</a>
+                    <a class="btn btn-link" href="">Serviço 2</a>
+                </div>
+                -->
+
+                <!--
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Links</h4>
+                    <a class="btn btn-link" href="">Sobre nós</a>
+                    <a class="btn btn-link" href="">Contato</a>
+                    <a class="btn btn-link" href="">Nossos Serviços</a>
+                    <a class="btn btn-link" href="">Termos e Condições</a>
+                    <a class="btn btn-link" href="">Suporte</a>
+                </div>
+                -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Boletim Informativo</h4>
+                    <p>Receba noticias atualizadas sobre sustentabilidade</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Seu e-mail">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Assine</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start 
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">ReuseFlow</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+        class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
